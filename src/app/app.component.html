@@ -1,10 +1,16 @@
 <div class="container mt-5">
- <div class="form-group">
- <select class="content-select" [(ngModel)]="viajeros">
+ <div class="form-group" class="box">
+  <div>
+
+  </div>
+ <select  [(ngModel)]="viajeros" >
+  <option value="">All Status</option>
   <option>Solved</option>
-  <option>Ezequiel</option>
+  <option>Open</option>
+  <option>Pending</option>
  </select>
-  <button>Add filter</button>
+ <app-boton></app-boton>
+
   </div>
   <br>
   <table>

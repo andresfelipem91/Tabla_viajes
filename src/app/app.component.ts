@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import  viajero from "src/assets/json/viajeros.json";
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,4 +11,5 @@ export class AppComponent {
   selection!: string;
   viajeros= ''
 Viajeros: any=viajero;
+
 }

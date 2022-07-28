@@ -5,15 +5,20 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
 import { ViajerosPipe } from './viajeros.pipe';
+import { BotonComponent }  from './boton.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ViajerosPipe
+    ViajerosPipe,
+   BotonComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+  ],
+  exports: [
+    BotonComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
