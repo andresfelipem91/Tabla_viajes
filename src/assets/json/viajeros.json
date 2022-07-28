@@ -1,0 +1,31 @@
+[
+  {
+    "User_Name": "Andres Gomez",
+    "Subject": "I can´t login to my account",
+    "Customer_Satisfaction": "100 %",
+    "Priority": "High",
+    "Status": "Solved"
+  },
+  {
+    "User_Name": "Ezequiel Salatino",
+    "Subject": "I need help!!, can´t login to my playvox acc...",
+    "Customer_Satisfaction": "80 %",
+    "Priority": "Medium",
+    "Status": "Open"
+  },
+  {
+    "User_Name": "Emiliano Cosenza",
+    "Subject": "I can´t login to my account",
+    "Customer_Satisfaction": "100 %",
+    "Priority": "Low",
+    "Status": "Pending"
+  },
+  {
+    "User_Name": "Andres Perez",
+    "Subject": "I can´t login to my account",
+    "Customer_Satisfaction": "100 %",
+    "Priority": "High",
+    "Status": "Solved"
+  }
+]
+

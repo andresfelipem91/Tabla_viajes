@@ -1,0 +1,33 @@
+<div class="container mt-5">
+ <div class="form-group">
+ <select class="content-select" [(ngModel)]="viajeros">
+  <option>Solved</option>
+  <option>Ezequiel</option>
+ </select>
+  <button>Add filter</button>
+  </div>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">User Name</th>
+        <th scope="col">Subject</th>
+        <th scope="col">Customer Satisfaction</th>
+        <th scope="col">Priority</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let viajeros of Viajeros | filter:viajeros ">
+        <td scope="row">{{ viajeros.User_Name }}</td>
+        <td scope="row">{{ viajeros.Subject }}</td>
+        <td scope="row">{{ viajeros.Customer_Satisfaction }}</td>
+        <td>{{ viajeros.Priority }}</td>
+        <td>{{ viajeros.Status }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
